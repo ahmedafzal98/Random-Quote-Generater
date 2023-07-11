@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Racing+Sans+One&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>QUOTE GENERATOR!</h1>
+
+    <div class="container">
+      <label>Select Category</label>
+      <select name="categories" id="categories">
+        <option class="category">leadership</option>
+        <option class="category">happiness</option>
+        <option class="category">knowledge</option>
+        <option class="category">life</option>
+      </select>
+      <div class="loader"></div>
+      <p class="quotes"></p>
+      <p class="author"></p>
+
+      <button id="btn">Next Quote  ></button>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
