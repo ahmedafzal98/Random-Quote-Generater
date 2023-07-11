@@ -26,3 +26,5 @@ document.querySelector("#btn").addEventListener("click", (e) => {
 
 let categories = document.getElementById("categories");
 categories.addEventListener("change", response);
+
+response()
